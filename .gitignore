@@ -1,0 +1,29 @@
+# Secrets & credentials
+.env
+scripts/gmail_token.json
+scripts/client_secret_*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.egg-info/
+
+# Venv files in repo root
+bin/
+include/
+lib/
+lib64
+pyvenv.cfg
+
+# Personal vault data
+Needs_Action/
+Done/
+Plan.md
+
+# OS
+.DS_Store
+Thumbs.db
